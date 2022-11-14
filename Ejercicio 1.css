@@ -1,0 +1,26 @@
+.contenedor{
+    border: 3px solid black;
+    height: 600px;
+    width: 600px;
+    display:flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+}
+.item{
+    color:white;
+    width: 200px;
+    height: 200px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#i1{
+    background-color: red;
+}
+#i2{
+    background-color: blue;
+}
+#i3{
+    background-color: green;
+}
